@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Drip</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- website icon -->
+    <link rel="icon" type="image/x-icon" href="./img/icon.png" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <nav>
+            <div id="navWrapper"class="nav-wrapper">
+                <a href="./index.html" class="brand-logo center"><img src="./img/noBGLogo.png" alt="Daily Drip" style="max-height: 60px"></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="./franchise.html">Franchising</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">More<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+                <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">Daily Drip Rewards</a></li>
+                    <li><a href="#!">Daily Drip Terms & Conditions</a></li>
+                    <li><a href="#!">Daily Drip FAQ</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Mobile App FAQ</a></li>
+                    <li><a href="#!">Daily Drip Card</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Scan & Pay</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Daily Drip Delivery</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Open a Daily Drip Store</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                <li><a href="./signIn.html" id ="btnNav" class="btn">Sign In</a></li>
+                <li><a id="btnCart" href="#!" data-target="dropdown2" class="dropdown-trigger2"><i class="material-icons">shopping_cart</i></a></li>
+                <!-- Dropdown Structure 2 -->
+                <ul id="dropdown2" class="dropdown-content">
+                    <p style="color: black;" class="center">Nothing on Cart Yet!</p>
+                    <img src="./img/cartcoffee.jpeg" alt="" style="height: 100px; margin-left: 75px;" class="center-align">
+                    <p style="color: black; margin-right: 30px;" class="right-align">Total ₱0.00</p>
+                    <li class="divider"></li>
+                    <a style="width: 200px" class="disabled btn">Checkout</a>
+                </ul>
+                <!-- sidenav -->
+                <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                        <div class="background">
+                        <img src="images/office.jpg">
+                        </div>
+                        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                    </ul>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <!-- slider -->
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                <img src="./img/banner3.png">
+                </li>
+                <li>
+                <img src="img/banner2.png"> 
+                </li>
+                <li>
+                <img src="img/banner0.png""> 
+                </li>
+                <li>
+                <img src="img/banner1.png""> 
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="container">
+        <div class="row">
+            <div  class="col l6">
+                <div id="card1" class="card">
+                    <div class="card-image">
+                        <img src="img/card1.png">
+                    </div>
+                    <div class="card-content">
+                        <p  style="font-weight: bolder;">Merry Christmas Sale!</p>
+                        <p>Each year, we bring some coffee awesomeness to the Christmas Sale by offering big savings on our best seller drinks, cakes, and more.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6">
+                <div id="card1" class="card">
+                    <div class="card-image">
+                        <img src="./img/card2.png">
+                    </div>
+                    <div class="card-content">
+                        <p style="font-weight: bolder;">Dec 13th the countdown begins!</p>
+                        <p>12 delightful days, 12 delicious deals. It’s the tastiest time of the year. Check the app daily and unwrap a new offer everyday! At part. US rest.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Terms and conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col l6">
+                <div id="card1" class="card">
+                    <div class="card-image">
+                        <img src="./img/card3.png">
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p><strong>Our Mobile App is Here!</strong></p>
+                        <p>The most awaited mobile app is here! You can now select your favorite drinks from Daily Drip just through your fingertips. Explore promos and discount on the launch date!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Save the Date!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6">
+                <div id="card1" class="card">
+                    <div class="card-image">
+                        <img src="./img/card4.png">
+                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">favorite</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p><strong>Limited Time Offer!</strong></p>
+                        <p>Cake is happiness! If you know the way of the cake, you know the way of happiness! If you have a cake in front of you, you should not look any further for joy!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Order now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- parallax -->
+        <div class="parallax-container">
+            <div class="parallax"><img src="./img/coffee.jpeg"></div>
+        </div>
+    <div class="container" style="padding-top: 50px;">
+        <div class="row">
+            <div class="col l6">
+                <div id="card1" class="card">
+                    <div class="card-image">
+                        <img src="img/card5.png">
+                    </div>
+                    <div class="card-content">
+                        <p  style="font-weight: bolder;">New Member Special!</p>
+                        <p>Enjoy your first drink on us! Join Daily Drip Rewards today and get a FREE medium cold drink in your first week!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Terms and conditions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6">
+                <div id="card1" class="card">
+                    <div class="card-image">
+                        <img src="img/card6.png">
+                    </div>
+                    <div class="card-content">
+                        <p  style="font-weight: bolder;">Loyalty Card For You!</p>
+                        <p>To reward our loyal customers, we will release our loyalty card soon! Enjoy your free drink on your 11th purchase here in Daily Drip Coffee.
+                            <br>
+                            <br>
+                            <br>   
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Terms and conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+    <!-- section -->
+    <section id="section1">
+        <h4 style="font-weight: bolder;">Our Daily Drip Rewards Program has changed!</h4>
+        <p style="font-size: larger;">Important Notice: Changes to the Daily Drip Rewards Program Terms effective December 10, 2022.</p>
+        <br>
+        <a href="">Learn More</a>
+    </section>
+    <section id="section2">
+        <div class="row">
+            <div class="col l6">
+                <img src="./img/preview.png" alt="mobile app">
+            </div>
+            <div class="col l6">
+                <h2 style="color: white; font-weight: bolder; padding-right: 100px;">Now earn 10 Points for every ₱100 with Daily Drip Rewards.</h2>
+                <p style="font-size: larger; color: lightgray; padding-right: 100px;">Get the Daily Drip App to earn, redeem, and enjoy your favorite Daily Drip treats!</p>
+                <img width="400px" src="./img/appstore.png" alt="appstore">
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer" class="row" style="background-color: #DCDCDC;">
+        <div class="col l3">
+            <h6>About Us</h6>
+            <p>Our Company</p>
+            <p>Stories and News</p>
+            <p>Customer Service</p>
+            <p>Careers</p>
+        </div>
+        <div class="col l3">
+            <h6>Order Online</h6>
+            <p>Order on the App</p>
+            <p>Delivery</p>
+            <p>Send eGifts</p>
+            <p>Partnership</p>
+        </div>
+        <div class="col l3">
+            <h6>Rewards</h6>
+            <p>My Account</p>
+            <p>View Transactions</p>
+            <p>Reload</p>
+            <p>FAQs</p>
+        </div>
+        <div class="col l3">
+            <h6>Connect with Us</h6>
+            <p>Contact Us</p>
+            <p>Social Media</p>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;" href="#" class="fa fa-facebook"></a>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;"href="#" class="fa fa-twitter"></a>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;" href="#" class="fa fa-instagram"></a>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;" href="#" class="fa fa-youtube"></a>
+        </div>
+        <hr>
+        <div class="row" style="margin-bottom: 0px;">
+            <div id="credits" class="col">
+                <span>Web Accessibility</span>
+                <span>Privacy Policy</span><span>Terms of Use</span>
+                <span>Site Map</span>
+                <span>Cookies Preferences</span>
+                <span style="font-weight: lighter; margin-left: 100px;">© 2022 Daily Drip Shop. All rights reserved.</span>
+            </div>
+        </div>
+        <hr>
+    </footer>
+
+    <!-- minified jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav(),
+            $('.parallax').parallax(),
+            $(".slider").slider({ 
+                full_width: true,
+                height : 600, // default - height : 400
+                interval: 6000 // default - interval: 6000
+                }),
+            $(".dropdown-trigger").dropdown({hover: false, constrainWidth: false, coverTrigger: false}),
+            $(".dropdown-trigger2").dropdown({hover: false, constrainWidth: false, width: 600, coverTrigger: false});
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Drip</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- external css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- website icon -->
+    <link rel="icon" type="image/x-icon" href="./img/icon.png" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <nav>
+            <div id="navWrapper"class="nav-wrapper">
+                <a href="./index.html" class="brand-logo center"><img src="./img/noBGLogo.png" alt="Daily Drip" style="max-height: 60px"></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="sass.html">Menu</a></li>
+                    <li><a href="./franchise.html">Franchising</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">More<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+                <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="#!">Daily Drip Rewards</a></li>
+                    <li><a href="#!">Daily Drip Terms & Conditions</a></li>
+                    <li><a href="#!">Daily Drip FAQ</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Mobile App FAQ</a></li>
+                    <li><a href="#!">Daily Drip Card</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Scan & Pay</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Daily Drip Delivery</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Open a Daily Drip Store</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                <li><a href="./signIn.html" id ="btnNav" class="btn">Sign In</a></li>
+                <li><a id="btnCart" href="#!" data-target="dropdown2" class="dropdown-trigger2"><i class="material-icons">shopping_cart</i></a></li>
+                <!-- Dropdown Structure 2 -->
+                <ul id="dropdown2" class="dropdown-content">
+                    <p style="color: black;" class="center">Nothing on Cart Yet!</p>
+                    <img src="./img/cartcoffee.jpeg" alt="" style="height: 100px; margin-left: 75px;" class="center-align">
+                    <p style="color: black; margin-right: 30px;" class="right-align">Total ₱0.00</p>
+                    <li class="divider"></li>
+                    <a style="width: 200px" class="disabled btn">Checkout</a>
+                </ul>
+                <!-- sidenav -->
+                <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                        <div class="background">
+                        <img src="images/office.jpg">
+                        </div>
+                        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                    </ul>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <div class="container">
+                
+        </div>
+        <div style="margin-top: 20px; margin-right: 50px;" class="row">
+            <div class="col l4">
+                <img style="border-radius: 25px;" id="christmas" src="./img/menubanner.png" alt="">
+            </div>
+            <div class="col l8">
+                <input style=" padding-left: 20px; border:orange; border: 1px; border-style:solid; border-radius: 10px;" type="text" placeholder="Search our coffees, drinks, and cakes">
+                <div style="margin-bottom: 50px;">
+                    <h5 style="font-weight: bolder;">Hot Coffee</h5>
+                    <hr>
+                    <a href="#modal1" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px; margin-top: 20px" src="./img/brewed.jpeg" alt=""></a>
+                    <p style="margin-left: 15px;">Hot Brewed Coffee</p>
+                    <!-- Modal Structure -->
+                    <div id="modal1" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/brewed.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Hot Brewed Coffee</h5>
+                                <p>Swing by and warm up while enjoying any of our three roasts brewed daily.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 50px;" class="row">
+                    <h5 style="font-weight: bolder;">Iced Coffee</h5>
+                    <hr>
+                    <div style="margin-top: 20px;" class="col l3">
+                        <a href="#modal2" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/icedcoffee1.jpeg" alt=""></a>
+                        <p>Salted Caramel Cold Brew</p>
+                        <!-- Modal Structure -->
+                    <div id="modal2" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/icedcoffee1.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Salted Caramel Cold Brew</h5>
+                                <p>Our Signature Starbucks Cold Brew flavored with salted caramel syrup, with a salted caramel flavored foam and drizzle of caramel syrup to finish the drink.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div style="margin-top: 20px;" class="col l3">
+                        <a href="#modal3" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/icedcoffee2.jpeg" alt=""></a>
+                        <p>Nitro Vanilla Sweet Cream Cold Brew</p>
+                        <!-- Modal Structure -->
+                    <div id="modal3" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/icedcoffee2.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Nitro Vanilla Sweet Cream Cold Brew</h5>
+                                <p>Served cold, straight from the tap, our Nitro Cold Brew is topped with a float of house-made vanilla sweet cream. The result: a cascade of velvety coffee that is more sippable than ever.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div style="margin-top: 20px;" class="col l3">
+                        <a href="#modal4" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/icedcoffee3.jpeg" alt=""></a>
+                        <p>Nitro Cold Brew</p>
+                        <!-- Modal Structure -->
+                    <div id="modal4" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/icedcoffee2.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Nitro Cold Brew</h5>
+                                <p>Our small-batch cold brew—slow-steeped for a super smooth taste—gets even better. We're infusing it with nitrogen for a naturally sweet flavor and cascading, velvety crema. Perfection is served.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div style="margin-top: 20px;" class="col l3">
+                        <a href="#modal5" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/icedcoffee5.jpeg" alt=""></a>
+                        <p>Vanilla Sweet Cream Cold Brew</p>
+                        <!-- Modal Structure -->
+                    <div id="modal5" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/icedcoffee5.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Vanilla Sweet Cream Cold Brew</h5>
+                                <p>Just before serving, our slow-steeped custom blend Cold Brew is topped with a delicate float of house-made vanilla sweet cream that cascades throughout the cup.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div>
+                    <h5 style="font-weight: bolder;">Coffee-based Frapuccino</h5>
+                    <hr>
+                    <div class="row">
+                        <div style="margin-top: 20px;" class="col l3">
+                            <a href="#modal6" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/frap9.jpeg" alt=""></a>
+                            <p>Java Chip Frappuccino</p>
+                            <!-- Modal Structure -->
+                    <div id="modal6" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/frap9.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Java Chip Frappuccino</h5>
+                                <p>We blend mocha sauce and Frappuccino® chips with Frappuccino® roast coffee and milk and ice, then top with whipped cream and mocha drizzle to bring you endless java joy.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div style="margin-top: 20px;" class="col l3">
+                            <a href="#modal7" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/frap6.jpeg" alt=""></a>
+                            <p>Caramel Frappuccino</p>
+                            <!-- Modal Structure -->
+                    <div id="modal7" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/frap6.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Caramel Frappuccino</h5>
+                                <p>Buttery caramel syrup meets coffee, milk and ice for a rendezvous in the blender. Then whipped cream and caramel sauce layer the love on top.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div style="margin-top: 20px;" class="col l3">
+                            <a href="#modal8" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/frap3.jpeg" alt=""></a>
+                            <p>Dark Caramel Coffee Frappuccino</p>
+                            <!-- Modal Structure -->
+                    <div id="modal8" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/frap3.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Dark Caramel Coffee Frappuccino</h5>
+                                <p>Dark caramel coffee Frappuccino is topped with buttery dark caramel sauce and layered between signature whipped cream infused with cold brew, dark caramel sauce, and a dollop of dark caramel sauce at the bottom of the cup.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                        <div style="margin-top: 20px;" class="col l3">
+                            <a href="#modal9" class="modal-trigger"><img id="product" style="border-radius: 50%; height: 150px" src="./img/frap4.jpeg" alt=""></a>
+                            <p>Triple Mocha Frappuccino</p>
+                            <!-- Modal Structure -->
+                    <div id="modal9" class="modal">
+                        <div style="margin: 0;" class="row">
+                            <div class="col l6">
+                                <img style="padding-left: 30px; padding-top: 30px; padding-bottom: 30px;" id="christmas" src="./img/frap3.jpeg" alt="">
+                            </div>
+                            <div class="col l6" style="padding-right: 30px;">
+                                <h5 style="margin-top: 30px; font-weight: bolder;">Triple Mocha Frappuccino</h5>
+                                <p>Your favorite Mocha Frappuccino is topped with rich dark mocha sauce and layered between the signature whipped cream infused with cold brew, dark caramel sauce, and a dollop of dark mocha sauce at the bottom of the cup.</p>
+                                <h1 style="margin-top: 30px;">₱220.00</h1>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center">Add to Cart</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat center" style="background-color: #b0331f; color: white;">Checkout</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <!-- footer -->
+    <footer id="footer" class="row" style="background-color: #DCDCDC;">
+        <div class="col l3">
+            <h6>About Us</h6>
+            <p>Our Company</p>
+            <p>Stories and News</p>
+            <p>Customer Service</p>
+            <p>Careers</p>
+        </div>
+        <div class="col l3">
+            <h6>Order Online</h6>
+            <p>Order on the App</p>
+            <p>Delivery</p>
+            <p>Send eGifts</p>
+            <p>Partnership</p>
+        </div>
+        <div class="col l3">
+            <h6>Rewards</h6>
+            <p>My Account</p>
+            <p>View Transactions</p>
+            <p>Reload</p>
+            <p>FAQs</p>
+        </div>
+        <div class="col l3">
+            <h6>Connect with Us</h6>
+            <p>Contact Us</p>
+            <p>Social Media</p>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;" href="#" class="fa fa-facebook"></a>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;"href="#" class="fa fa-twitter"></a>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;" href="#" class="fa fa-instagram"></a>
+            <a style="color:darkslategray; font-size: 30px; margin-right: 10px;" href="#" class="fa fa-youtube"></a>
+        </div>
+        <hr>
+        <div class="row" style="margin-bottom: 0px;">
+            <div id="credits" class="col">
+                <span>Web Accessibility</span>
+                <span>Privacy Policy</span><span>Terms of Use</span>
+                <span>Site Map</span>
+                <span>Cookies Preferences</span>
+                <span style="font-weight: lighter; margin-left: 100px;">© 2022 Daily Drip Shop. All rights reserved.</span>
+            </div>
+        </div>
+        <hr>
+    </footer>
+
+    <!-- minified jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav(),
+            $('.parallax').parallax(),
+            $(".slider").slider({ 
+                full_width: true,
+                height : 600, // default - height : 400
+                interval: 6000 // default - interval: 6000
+                }),
+            $(".dropdown-trigger").dropdown({hover: false, constrainWidth: false, coverTrigger: false}),
+            $(".dropdown-trigger2").dropdown({hover: false, constrainWidth: false, width: 600, coverTrigger: false}),
+            $('.modal').modal();
+        });
+    </script>
+</body>
+</html>
